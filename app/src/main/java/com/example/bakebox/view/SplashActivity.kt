@@ -61,8 +61,8 @@ fun splashScreen() {
 //            context.startActivity(intent)
             activity.finish()
         }else{
-//            val intent = Intent(context, LoginActivity::class.java)
- //           context.startActivity(intent)
+            val intent = Intent(context, LoginActivity::class.java)
+            context.startActivity(intent)
             activity.finish()
         }
 
